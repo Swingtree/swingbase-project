@@ -22,6 +22,7 @@
 	},
     "require": {
 		"drupal-composer/drupal-scaffold": "^2.0.0",
+		"cweagans/composer-patches": "^1.6.0",
         "swingtree/swingbase": "dev-8.x-0.x"
 	},
 	"repositories": [
@@ -41,6 +42,9 @@
 		"post-update-cmd": [
 			"DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
 		]
+    },
+	"config": {
+        "bin-dir": "bin/"
     },
 	"extra": {
         "installer-paths": {
