@@ -15,13 +15,14 @@
 		"source": "https://github.com/Swingtree/swingbase"
 	},
     "minimum-stability": "dev",
+	"prefer-stable" : true,
 	"require-dev": {
 		"drush/drush": "8.1.11",
         "drupal/console": "^1.0"
 	},
     "require": {
 		"drupal-composer/drupal-scaffold": "^2.0.0",
-		"swingtree/swingbase": "^0.0.1"
+        "swingtree/swingbase": "dev-8.x-0.x"
 	},
 	"repositories": [
         {
