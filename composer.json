@@ -37,10 +37,12 @@
     ],
 	"scripts": {
 		"post-install-cmd": [
-			"DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
+			"DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
+			"Swingtree\\Swingbase\\Composer\\SwingbaseScripts::sitesDefaultFiles"
 		],
 		"post-update-cmd": [
-			"DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
+			"DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
+			"Swingtree\\Swingbase\\Composer\\SwingbaseScripts::sitesDefaultFiles"
 		]
     },
 	"config": {
