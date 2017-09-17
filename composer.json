@@ -21,7 +21,7 @@
 	},
     "require": {
 		"drupal-composer/drupal-scaffold": "^2.0.0",
-		"swingtree/swingbase": "^1.0-dev"
+		"swingtree/swingbase": "^0.0.1"
 	},
 	"repositories": [
         {
