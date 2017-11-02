@@ -17,7 +17,7 @@
     "minimum-stability": "dev",
 	"prefer-stable" : true,
 	"require-dev": {
-		"drush/drush": "8.1.11",
+		"drush/drush": "8.1.15",
         "drupal/console": "^1.0"
 	},
     "require": {
