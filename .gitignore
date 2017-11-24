@@ -7,6 +7,7 @@
 /www/profiles/contrib
 /www/themes/contrib
 /www/sites/default/files
+/www/sites/default/settings.local.php
 
 # Ignore Composer-managed dependencies.
 vendor/
